@@ -1,0 +1,119 @@
+body {
+	
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	color:#808080;
+
+}
+
+p {color:#808080;}
+
+h2 {color:#4aaaa5;}
+
+h3 {color:#4aaaa5;}
+
+hr {color:#808080;}
+
+#header {
+	display: block;
+	width: 100%;
+    height: 20%;
+    border: 3px solid ##cccccc;
+    background: #ffffff;
+}
+
+#content {
+	display: block;
+	width: 100%;
+    height: 600px;
+    border: 3px solid #dddddd;
+    background: #ffffff;
+    background-image: url("../images/ep_naturalwhite.png");
+}
+
+#footer {
+	display: block;
+	width: 100%;
+    height: 20%;
+    border: 7px solid #4aaaa5;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    background: #666666;
+    text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+#nameHeader {
+	background: #4aaaa5;
+	color: #ffffff;
+	float: left;
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	left:60px;
+	top: 100px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#pageLinks {
+	width:200px;
+	height:50px;
+	float: right;
+	right: 100px;
+	top: 300px;
+	margin: 80px
+}
+
+#aboutMe {
+	background: #ffffff;
+	float: left;
+	width: 50%;
+	height: 90%;
+	position: relative;
+	top: 20px;
+	right: 50px;
+	left: 50px;
+	bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#connectWithMe {
+	background: #ffffff;
+	float: right;
+	width: 15%;
+	height: 20%;
+	position: relative;
+	top: 20px;
+	right: 50px;
+	left: 0px;
+	bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right:100px;
+	justify-content: center;
+}
+
+#profilePic {
+	float: left;
+	margin: 0 0 10px 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
